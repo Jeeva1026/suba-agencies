@@ -17,11 +17,11 @@ menu.onclick = () => {
 //     navbar.classList.remove('open');
 // };
 
-// const sr = ScrollReveal ({
-//     distance: '100px',
-//     duration: 1500,
-//     reset: true
-// });
+const sr = ScrollReveal ({
+    distance: '10px',
+    duration: 1000,
+    reset: true
+});
 
 sr.reveal('.home-text',{delay:200, origin:'left'});
 sr.reveal('.home-img',{delay:200, origin:'right'});
