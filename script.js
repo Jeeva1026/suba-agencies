@@ -15,13 +15,13 @@ menu.onclick = () => {
 // window.onscroll = () => {
 //     menu.classList.remove('bx-x');
 //     navbar.classList.remove('open');
-};
+// };
 
-const sr = ScrollReveal ({
-    distance: '100px',
-    duration: 1500,
-    reset: true
-});
+// const sr = ScrollReveal ({
+//     distance: '100px',
+//     duration: 1500,
+//     reset: true
+// });
 
 sr.reveal('.home-text',{delay:200, origin:'left'});
 sr.reveal('.home-img',{delay:200, origin:'right'});
