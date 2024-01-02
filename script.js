@@ -12,16 +12,16 @@ menu.onclick = () => {
     navbar.classList.toggle('open');
 };
 
-// window.onscroll = () => {
-//     menu.classList.remove('bx-x');
-//     navbar.classList.remove('open');
-// };
+window.onscroll = () => {
+    menu.classList.remove('bx-x');
+    navbar.classList.remove('open');
+};
 
-const sr = ScrollReveal ({
-    distance: '10px',
-    duration: 1000,
-    reset: true
-});
+// const sr = ScrollReveal ({
+//     distance: '10px',
+//     duration: 1000,
+//     reset: true
+// });
 
 sr.reveal('.home-text',{delay:200, origin:'left'});
 sr.reveal('.home-img',{delay:200, origin:'right'});
